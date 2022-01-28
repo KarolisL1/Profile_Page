@@ -44,8 +44,6 @@ main {
 }
 
 .section, .aside {
-    background-color: orange;
-    border: 1px solid black;
     min-height: 400px;
 }
 
@@ -54,6 +52,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
+    border: 1px solid black;
 }
 
 .aside, .sectionbottom {
@@ -71,14 +70,14 @@ main {
     justify-content: center;
 }
 
-.sectionbottom {
+.sectionbottom, .aside {
     flex-direction: column;
 }
 
 /* user card */
 
 .card {
-    width: 600px;
+    width: 750px;
     background-color: white;
     border: 1px solid black;
 }
@@ -113,12 +112,106 @@ main {
 
 .virsus {
     min-height: 50px;
-    background-color: green;
+    background-color: brown;
     flex: 1;
 }
 
 .apacia {
     min-height: 50px;
-    background-color: red;
     flex: 2;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.Education, .Requests {
+    color: white;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.asidetop, .asidebottom {
+    min-height: 150px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.aside {
+    display: flex;
+    gap: 1.5em;
+}
+
+.asidetop {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.asidebottom, .asidetopmain {
+    flex: 2;
+}
+
+.icons {
+    height: 25px;
+    width: 25px; 
+}
+
+.asidetopbanner, .asidetopmain {
+    min-height: 50px;
+}
+
+.asidetopbanner {
+    flex: 1;
+    color: white;
+    background-color: brown;
+}
+
+.asidetopmain {
+    display: flex;
+    flex-direction: column;
+}
+
+.request1, .request2 {
+    min-height: 50px;
+}
+
+.usercircle, .usercircle1 {
+    height: 25px;
+    width: 25px;
+}
+
+.usercircle1 {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.names {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.mygtukai {
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.asidebottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.asidebottom1, .asidebottom2, .asidebottom3 {
+    min-height: 50px;
+    border-top: 1px solid black;
+}
+
+.asidebottom1 {
+    background-color: brown;
+}
+
+.lasttext{
+    color: lightblue;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-top: 10px;
 }
